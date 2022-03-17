@@ -12,12 +12,6 @@ def funkce1():
             char = veta[j]
     return char
 
-def funkce2():
-    pole = []
-    for i in range(100):
-        if i*i*i*i >= 5000 and i**4 <= 15000:
-            pole.append(i)
-    return pole
         
 def funkce3(jmeno):
     for i in range(len(jmeno)):
@@ -35,7 +29,8 @@ def funkce4():
         pocet += vaha
         znamka = int(input("Zadej znamku: "))
     if pocet > 0: return soucet / pocet
-    else: return soucet
+    else: 
+        return soucet
 
 def funkce5():
     len("5")
