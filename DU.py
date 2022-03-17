@@ -79,3 +79,6 @@ def funkce1spoctiSlova():
     return znaky[" "] + 1
     
 
+
+    
+
